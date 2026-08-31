@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/prompt"
+  to = "/.netlify/functions/prompt"
+  status = 200
