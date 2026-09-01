@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid #302b48;
+
+  background: #121021;
+
+  border-radius: 18px;
+
+  padding: 20px;
+}
+
+.input {
+  width: 100%;
+
+  padding: 13px;
+
+  border-radius: 11px;
+
+  border: 1px solid #35304d;
+
+  background: #100e1c;
+
+  color: white;
+
+  outline: none;
+}
+
+.input:focus {
+  border-color: #7c3aed;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.loading {
+  opacity: 0.6;
+
+  pointer-events: none;
+}
+
+.error {
+  color: #fb7185;
+}
+
+.success {
+  color: #34d399;
+}
